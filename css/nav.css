@@ -1,0 +1,82 @@
+
+.navbar {
+  position: relative;
+  z-index: 99;
+  width: 100%;
+}
+.navbar__body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Lora', serif; 
+  color: #fff;
+  padding: 15px 0;
+  min-height: 76px;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.2);
+}
+.menu {
+    order: -1;
+    z-index: 99;
+    width: 100%;
+    margin-top: -350px;
+    background-color: #000;
+    color: #fff;
+    transition: all 0.45s ease-in-out;
+}
+.navbar__body .fa-viacoin {
+    color: #fff;
+    margin-left: 7px;
+    font-size: 35px;
+}
+.menu__list {
+    list-style: none;
+    padding: 0 100px;
+}
+.menu__list li {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.menu__link {
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+.menu__link:hover {
+    color: #51c2b9;
+    text-decoration: underline;
+}
+.menu--active {
+    margin-top: 0 !important;
+}
+.navbar__bars {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+.navbar__bars .fa-bars {
+    font-size: 28px;
+}
+.navbar__bars::before {
+    content: "MENU";
+}
+.navbar__bars--close::before {
+    content: "CLOSE";
+}
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navbar-fixed .navbar__body {
+    border-bottom: none;
+}
+.dark-bar {
+    background-color: #424242;
+}
+.light-bar {
+    background-color: rgba(0, 0, 0, 0.8);
+}

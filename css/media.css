@@ -1,0 +1,129 @@
+@media (max-width: 1200px) {
+    .navbar__body {
+        min-height: unset;
+    }
+    .container {
+        max-width: 970px;
+        padding: 0 15px;
+    }
+    .reel-popup__body {
+        height: 400px;
+    }
+    .popup-close {
+        right: -35px;
+        top: -15px;
+        color: #fff;
+        background-color: transparent;
+        font-size: 46px;
+    }
+    .reel__icon {
+        font-size: 48px;
+    }
+}
+@media (max-width: 800px) {
+    .container {
+        max-width: 750px;
+    }
+    section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .screen {
+        min-height: unset;
+    }
+    .card {
+        flex-basis: 45%;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    h3 {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .expert p {
+        font-size: 14px;
+    }
+    .expert {
+        flex-wrap: wrap;
+    }
+    .expert-column {
+        flex: 1 1 70%;
+    }
+    .expert-column:last-child {
+        min-height: unset;
+    }
+    .subscribe__title {
+        font-size: 25px;
+    }
+    .subscribe__input {
+        font-size: 14px;
+        min-width: unset;
+    }
+    .btn {
+        padding: 10px 40px;
+    }
+    .heading-italic {
+        font-size: 25px;
+    }
+    .owl-carousel button.owl-dot {
+        width: 10px;
+        height: 10px;
+    }
+    .owl-carousel button.owl-dot.active {
+      transform: scale(1.4);
+    }
+    .team__card {
+        margin-bottom: 20px;
+    }
+    
+}
+@media (max-width: 578px) {
+    .card {
+        flex-basis: 50%;
+    }
+    
+    h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .screen__subtitle {
+        font-size: 20px;
+        width: 90%;
+    }
+    .reel__text {
+        gap: 20px;
+        flex-direction: column;
+    }
+    .reel__flex {
+        flex-wrap: wrap;
+    }
+    .footer__text {
+        font-size: 18px;
+    }
+    .quote-text {
+        margin-bottom: 50px;
+    }
+    .quote-phrase {
+        font-size: 18px;
+    }
+    .field-group {
+        flex-direction: column;
+    }
+    .reel-popup__body {
+        width: 80%;
+        height: 60%;
+    }
+}
+@media (max-width: 492px) {
+    .card {
+        flex-basis: 70%;
+    }  
+}
+
+
+
